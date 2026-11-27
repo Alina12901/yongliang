@@ -18,6 +18,14 @@ https://ghproxy.net/https://github.com/Alina12901/yongliang.git
 
 > `ghproxy.net` 只是 GitHub 的加速地址，国内直连 github.com 打不开时用它；能直连的话换成 `https://github.com/Alina12901/yongliang.git` 也一样。
 
+## 更新
+
+扩展本身是个 git 仓库，更新就是 `git pull`：
+
+- **手动**：点开「扩展程序」面板里的这一条，酒馆会检查一次版本；有新版本时名字会标黄并出现 **Update** 按钮，点一下就是拉取，提示 “Reload the page to apply updates”，刷新页面生效。
+- **提醒**：本扩展的 `manifest.json` 里已经打开 `auto_update`，所以只要你在「扩展程序」设置里勾上 **Notify about extension updates**，有更新时每天会弹一次提示（一天最多一次）。
+- 版本号写在 `manifest.json` 的 `version` 字段里，更新记录见仓库的 commit 历史。
+
 ## 用法
 
 1. 正常聊天，每收到一条模型回复，对应模型那行的 `次数` +1，同时累计输入 / 输出 token

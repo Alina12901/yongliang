@@ -6,7 +6,7 @@
     "js": "index.js",
     "css": "style.css",
     "author": "local",
-    "version": "0.1.0",
-    "homePage": "",
-    "auto_update": false
+    "version": "0.2.0",
+    "homePage": "https://github.com/Alina12901/yongliang",
+    "auto_update": true
 }
